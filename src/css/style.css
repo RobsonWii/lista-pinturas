@@ -1,0 +1,38 @@
+@media(min-width: 768px){
+
+    *{
+        margin: 0;
+    }
+
+    .imagens{
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .imagem:first-child{
+        margin: 0px;
+    }
+
+    .imagem:last-child{
+        margin: 0px;
+    }
+
+    .imagem{
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .imagem .titulo{
+        bottom: 68px;
+        left: 19px;
+    }
+
+    .imagem .subtitulo{
+        bottom: 43px;
+        left: 19px;
+    }
+
+
+}

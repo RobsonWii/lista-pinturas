@@ -1,0 +1,47 @@
+    body {
+        font-family: 'Public Sans', sans-serif;
+        color: #000;
+    }
+
+    .imagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem {
+        width: 335px;
+        height: 432px;
+        position: relative;
+        margin: 0.5px;
+    }
+
+    .imagem:first-child {
+        margin-top: 20px;
+    }
+
+    .imagem:last-child {
+        margin-bottom: 20px;
+    }
+
+    .imagem .titulo {
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        color: #fff;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .imagem .subtitulo {
+        position: absolute;
+        bottom: 0px;
+        left: 30px;
+        color: #fff;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
